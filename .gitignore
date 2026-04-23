@@ -1,0 +1,13 @@
+.ipynb_checkpoints/
+
+__pycache__/
+*.pyc
+
+venv/
+.env/
+
+.DS_Store
+
+.qiskit_env
+qiskit_env
+APIKEY
