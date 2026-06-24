@@ -91,8 +91,8 @@ for bitstring, count in counts.items():
     bitstring = bitstring.replace(" ", "")
 
     x = int(bitstring[:nb_bits_x], 2)
-    y = int(bitstring[nb_bits_x:], 2)
-
+    y = int(bitstring[nb_bits_y:], 2)
+    
     table[x, y] = count / shots
 
 # =========================
